@@ -20,3 +20,8 @@ Output: true
 PYTHON SOLUTION
 def containsDuplicate(self, nums: List[int]) -> bool:  
     return (len(nums) != len({n for n in nums}))
+
+SWIFT SOLUTION
+func containsDuplicate(_ nums: [Int]) -> Bool {
+    return(nums.count != Set(nums).count)
+}
