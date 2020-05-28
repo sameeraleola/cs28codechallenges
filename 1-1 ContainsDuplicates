@@ -20,8 +20,22 @@ Output: true
 PYTHON SOLUTION
 def containsDuplicate(self, nums: List[int]) -> bool:  
     return (len(nums) != len({n for n in nums}))
+(Runtime: 124 :: Memory Usage: 19.1)
 
-SWIFT SOLUTION
+SWIFT SOLUTIONS
 func containsDuplicate(_ nums: [Int]) -> Bool {
     return(nums.count != Set(nums).count)
 }
+(Runtime: 148 ms :: Memory Usage: 22.6 MB)
+
+func containsDuplicate(_ nums: [Int]) -> Bool {
+    var nSet: Set<Int> = Set()
+        for n in 0 ..< nums.count {
+            if nSet.contains(nums[n]) {
+                return true
+            }
+        nSet.insert(nums[n])
+        }
+    return false
+}
+(Runtime: 148 ms :: Memory Usage: 22.6 MB)
