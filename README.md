@@ -2,10 +2,12 @@
 Final week of code challenges in the CS28 cohort
 
 #### Day 1: Tuesday 5/26/2020  
+Guided Challenge: https://www.hackerrank.com/challenges/alternating-characters/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=strings  
 Contains Duplicates: https://leetcode.com/problems/contains-duplicate/  
 Add Two Numbers in Linked Lists: https://leetcode.com/problems/add-two-numbers/  
 
 #### Day 2: Wednesday 5/27/2020  
+Guided Challenge: https://www.hackerrank.com/challenges/ctci-linked-list-cycle/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=linked-lists  
 Two Sum: https://leetcode.com/problems/two-sum/  
 Implement a Queue with Stacks: https://leetcode.com/problems/implement-queue-using-stacks/  
 
